@@ -12,7 +12,7 @@ public class OpenAi01 {
         OpenAiService service = new OpenAiService(Constants.OPENAPI_TOKEN);
         CompletionRequest completionRequest = CompletionRequest.builder()
                 .model("text-davinci-003")
-                .prompt("Q: 今天重庆的天气咋样?\nA:")
+                .prompt("Q: 今天深圳的天气咋样?\nA:")
                 .temperature(0D)
                 .maxTokens(1000)
                 .topP(1D)
